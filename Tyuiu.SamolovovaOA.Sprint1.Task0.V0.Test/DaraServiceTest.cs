@@ -11,7 +11,7 @@ namespace Tyuiu.SamolovovaOA.Sprint1.Task0.V0.Test
         {
             DaraService ds = new DaraService();
             var res = ds.Calculate();
-            Assert.AreEqual(2, res);
+            Assert.AreEqual(2, res); 
         }
     }
 }

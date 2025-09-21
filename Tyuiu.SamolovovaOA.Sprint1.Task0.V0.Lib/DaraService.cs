@@ -7,7 +7,7 @@ namespace Tyuiu.SamolovovaOA.Sprint1.Task0.V0.Lib
 
         public double Calculate()
         {
-            return 10 / (2 + 3);
+            return 4 * 5 / 2 - 18 / 2 / 3;
         }
     }
 }
