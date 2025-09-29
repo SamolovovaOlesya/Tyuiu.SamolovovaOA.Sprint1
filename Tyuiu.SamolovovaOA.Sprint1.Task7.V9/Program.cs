@@ -1,4 +1,5 @@
-﻿using Tyuiu.SamolovovaOA.Sprint1.Task7.V9.Lib;
+﻿using System.Globalization;
+using Tyuiu.SamolovovaOA.Sprint1.Task7.V9.Lib;
 
 internal class Program
 {
@@ -27,7 +28,8 @@ internal class Program
         Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
         Console.WriteLine("***************************************************************************");
 
-        Console.WriteLine(ds.Calculate(x, y));
+        double res = ds.Calculate(x, y);
+        Console.WriteLine(res.ToString("F3", CultureInfo.InvariantCulture));
         Console.ReadKey();
 
     }
